@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/charliebrown364/temp-advanced-chat-socket/issues"
   },
-  "homepage": "https://github.com/charliebrown364/temp-advanced-chat-socket#readme"
+  "homepage": "https://github.com/charliebrown364/temp-advanced-chat-socket#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "node-uuid": "^1.4.8",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  }
 }
